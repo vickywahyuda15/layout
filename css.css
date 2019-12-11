@@ -1,0 +1,65 @@
+.wrap{
+	width: 1200px;
+	margin: 10px auto;
+	color:white;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background:black url(img/assa.jpg);
+	background-color:#777;
+	/*height: 50px;*/
+	padding: 2px 10px;
+	
+	
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu a:hover {
+	background-color:#555;
+	color:white;
+	
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background-color:#ba1212;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background:white;
+	float: left;
+	height: 250%;
+	width: 75%;
+	color:black;
+	
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
+
